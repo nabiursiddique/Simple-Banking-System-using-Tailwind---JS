@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baaper Bank Practice</title>
+    <!-- tailwind css cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center font-medium my-8"><span class="text-blue-600">Baper bank</span> Building
+            practice !!</h1>
+    </header>
+    <main>
+        <!-- Dashboard section -->
+        <section class="mb-10">
+            <div class="main-div grid grid-cols-3 gap-4 m-auto w-9/12">
+                <div class="bg-green-500 p-10 text-center ">
+                    <h1 class="text-white text-5xl py-4">Deposit</h1>
+                    <h2 class="text-white text-5xl">$<span id="deposit-amount">00</span></h2>
+                </div>
+                <div class="bg-red-500 p-10 text-center ">
+                    <h1 class="text-white text-5xl py-4">Withdraw</h1>
+                    <h2 class="text-white text-5xl">$<span id="deposit-amount">00</span></h2>
+                </div>
+                <div class="bg-yellow-500 p-10 text-center ">
+                    <h1 class="text-white text-5xl py-4">Balance</h1>
+                    <h2 class="text-white text-5xl">$<span id="deposit-amount">00</span></h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Input section -->
+        <section class="mt-10">
+            <div class="grid grid-cols-2 gap-5 m-auto w-9/12">
+                <!-- For deposit submit button -->
+                <div class="bg-green-400 p-7">
+                    <h1 class="text-3xl font-semibold text-white">Please enter the amount</h1>
+                    <input class="py-2 px-20 my-5" type="text">
+                    <br>
+                    <button class="py-2 px-5  bg-purple-500 hover:bg-green-700 text-white font-medium">Submit</button>
+                </div>
+                <!-- For withdraw submit button -->
+                <div class="bg-red-400 p-7">
+                    <h1 class="text-3xl font-semibold text-white">Please Enter the amount</h1>
+                    <input class="py-2 px-20 my-5" type="text">
+                    <br>
+                    <button class="py-2 px-5  bg-blue-500 hover:bg-red-700 text-white font-medium">Submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
